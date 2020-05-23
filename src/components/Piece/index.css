@@ -1,0 +1,24 @@
+.piece {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  outline: 2px solid #000;
+}
+
+.piece .none {
+  cursor: pointer;
+}
+
+.piece-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.piece-item.black {
+  background-image: radial-gradient(#fff, #000);
+}
+
+.piece-item.red {
+  background-image: radial-gradient(#fff, #f00);
+}

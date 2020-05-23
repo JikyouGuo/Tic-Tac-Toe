@@ -1,0 +1,22 @@
+.info {
+  text-align: center;
+}
+
+.message {
+  width: 5em;
+  margin: 1em auto;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.message.black {
+  color: #000;
+}
+
+.message.red {
+  color: #f00;
+}
+
+.isOver {
+  outline: 2px solid;
+}
